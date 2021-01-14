@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "54.81.181.128",
+  "port": "22",
+  "target": "/home/ubuntu/groovy",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ubuntu",
+  "keyfile": "C:\\Users\\MANNY\\Documents\\AWS\\devops.pem",
+  "watch": [],
+  "transport": "scp"
+}
